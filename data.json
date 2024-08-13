@@ -1,0 +1,561 @@
+{
+   "data":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "Bonjour",
+      "??",
+      "Hallo"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, What do you wish to know about Diva?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg",
+      "Tschüss"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon",
+      "Tschüss"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you",
+      "Wer dich gemacht hat?"
+   ],
+   "responses": [
+      "Diva-the goddess of Programming",
+      "Diva-the great",
+      "Diva-the legend",
+      "Diva-the epic"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me Bro.",
+      "I'm an assistant to Diva",
+      "I am Diva's assistant.",
+      "I am your helper in getting to know Diva better."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Intro",
+   "patterns": [
+      "Can you tell me about Diva?",
+      "Introduce yourself",
+      "Tell me about Diva Gupta",
+      "Who is Diva Gupta?",
+      "What can you tell me about Diva Gupta?",
+      "Diva Gupta's introduction",
+      "Diva Gupta's background",
+      "What is Diva Gupta's profile?",
+      "Diva Gupta's summary",
+      "Summary of Diva Gupta",
+      "About Diva Gupta",
+      "Background of Diva Gupta"
+   ],
+   "responses": [
+      "Hello! Diva Gupta is a dedicated Computer Science student at Amity University. Her passion lies in AI/ML, and she's completed a machine learning specialization by Andrew Ng from Stanford University. With a solid foundation in front-end web development, she's worked on various impactful projects, including churn prediction, image classification, Alzheimer's detection, and more. As the GDSC AI/ML lead, she's honed her leadership skills and collaborated with diverse teams. Proficient in a range of languages and technologies such as React, React Native, JavaScript, CSS, HTML, Java, Python, C, C++, Linux, and Scratch, she brings a versatile skill set to any project. Feel free to ask her about her experiences and projects!"
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "Education",
+   "patterns": [
+      "Can you provide information about Diva's education?",
+      "What is Diva's educational background?",
+      "What are Diva's qualifications?",
+      "Where did Diva study?",
+      "What did Diva study?",
+      "What is Diva's highest qualification?",
+      "Tell me about Diva's education",
+      "Diva's education",
+      "What degree does Diva hold?",
+      "What is Diva's major?",
+      "Where did Diva graduate from?"
+   ],
+   "responses": [
+      "Diva is currently pursuing a Bachelor of Technology in Computer Science at Amity University and has a 9.22 CGPA.",
+      "Diva is currently pursuing Btech in CSE(2021-25) with a striking CGPA of 9.22. Her expertise are in Machine Learning."
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "socials",
+   "patterns": [
+      "What are Diva's social media handles?",
+      "Can I connect with Diva on social media?",
+      "Diva's socials?",
+      "How can I find Diva on social media?",
+      "What are Diva's social media profiles?",
+      "Does Diva have any social media accounts?",
+      "Where can I follow Diva online?",
+      "Diva's LinkedIn profile?",
+      "Diva's Twitter handle?",
+      "Diva's GitHub account?",
+      "What are Diva's social media links?",
+      "Can I add Diva on LinkedIn?",
+      "Is Diva active on social media?"
+   ],
+   "responses": [
+      "Diva can be reached on LinkedIn at https://www.linkedin.com/in/diva-gupta-a6107421b/ , on Twitter at https://twitter.com/divagupta028 , and on GitHub at https://github.com/GuptaDiva , and on Stackoverflow at https://stackoverflow.com/users/19965082/diva-gupta , and on Medium at https://medium.com/@divagupta028. Feel free to connect with her! You can also email her at divagupta028@gmail.com.",
+      "LinkedIn: https://www.linkedin.com/in/diva-gupta-a6107421b/ , Email: divagupta028@gmail.com , Github: https://github.com/GuptaDiva , Twitter: https://twitter.com/divagupta028 , Stackoverflow: https://stackoverflow.com/users/19965082/diva-gupta , Medium: https://medium.com/@divagupta028"
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "hobbies",
+   "patterns": [
+      "What does Diva like to do in her leisure time?",
+      "Tell me about Diva's hobbies",
+      "What are Diva's interests outside of work?",
+      "Does Diva have any hobbies?",
+      "How does Diva like to spend her free time?",
+      "What are Diva's favorite leisure activities?",
+      "What does Diva enjoy doing when she's not working?",
+      "What are Diva's hobbies and interests?",
+      "Can you tell me about Diva's leisure activities?",
+      "What does Diva do for fun?",
+      "What are Diva's hobbies apart from work?",
+      "Tell me something about Diva's hobbies",
+      "Does Diva have any hobbies like reading, writing, or painting?",
+      "What are Diva's favorite pastimes?",
+      "Does Diva like to read, write, or paint in her leisure time?"
+   ],
+   "responses": [
+      "Diva finds solace in reading books, expressing her thoughts through writing, and creating art through painting.",
+      "In her leisure time, Diva indulges in reading, writing, and painting, which she finds both relaxing and fulfilling.",
+      "Reading, writing, and painting are some of Diva's hobbies, which she enjoys in her free time.",
+      "Diva's hobbies include reading, writing, and painting, which she finds both enjoyable and therapeutic.",
+      "When she's not working, Diva likes to read, write, and paint as her hobbies, finding them both relaxing and inspiring.",
+      "Diva's leisure activities include reading, writing, and painting, which she finds to be both relaxing and fulfilling.",
+      "In her free time, Diva enjoys reading, writing, and painting, which help her relax and unwind.",
+      "Diva's hobbies outside of work include reading, writing, and painting, which she finds to be both enjoyable and rewarding.",
+      "Reading, writing, and painting are some of Diva's favorite leisure activities, which she finds both relaxing and inspiring.",
+      "Diva likes to read books, write, and paint in her leisure time, finding these activities both relaxing and fulfilling."
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "experience",
+   "patterns": [
+      "Where did Diva work as a front-end developer?",
+      "Can you tell me about Diva's work experience?",
+      "Where has Diva worked before?",
+      "What is Diva's work history?",
+      "Can you list Diva's previous work experiences?",
+      "What companies has Diva worked for?",
+      "Where did Diva intern as a machine learning intern?",
+      "Which companies has Diva interned with?",
+      "Tell me about Diva's internships.",
+      "Where did Diva work as a summer researcher?",
+      "Can you provide information about Diva's research experience?",
+      "What research has Diva been involved in?",
+      "Which organizations has Diva volunteered with?",
+      "Tell me about Diva's volunteer experiences.",
+      "Where has Diva volunteered before?",
+      "Which projects has Diva worked on as a student summer researcher?",
+      "Can you list the projects Diva has worked on?",
+      "What was Diva's role at Octanet?",
+      "Where did Diva work as an AI trainer?",
+      "Can you tell me about Diva's role at Scaler AI?"
+   ],
+   "responses": [
+      "Diva has worked as a front-end developer at Octanet and as a machine learning intern at UP Rail Metro. She has also interned as a student summer researcher at Amity University.",
+      "Diva's work experience includes roles as a front-end developer, machine learning intern, and student summer researcher.",
+      "Diva has worked at Octanet as a front-end developer and interned at UP Rail Metro as a machine learning intern. She has also been a student summer researcher at Amity University.",
+      "Diva's professional experience includes working as a front-end developer at Octanet, interning as a machine learning intern at UP Rail Metro, and serving as a student summer researcher at Amity University.",
+      "Diva's work history includes positions as a front-end developer, machine learning intern, and student summer researcher at various organizations."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "projects",
+   "patterns": [
+      "Tell me about Diva's projects",
+      "Can you list Diva's projects?",
+      "What projects has Diva worked on?",
+      "Describe Diva's projects",
+      "What are the projects Diva has completed?",
+      "Which projects has Diva completed?",
+      "Give me an overview of Diva's projects",
+      "What kind of projects has Diva been involved in?",
+      "What were Diva's contributions to her projects?",
+      "Can you provide details about Diva's project on churn prediction?",
+      "Tell me about Diva's image classification project.",
+      "Describe Diva's Alzheimer's detection project.",
+      "What was Diva's role in the Google stock price prediction project?",
+      "Can you provide information about Diva's skin cancer prediction project?",
+      "Describe Diva's project on sign language conversion.",
+      "What was the objective of Diva's malicious website detection project?",
+      "Can you explain Diva's fraudulent credit card detection project?",
+      "Tell me about the impact of Diva's projects.",
+      "How did Diva's projects contribute to her skill development?",
+      "What technologies did Diva use in her projects?"
+   ],
+   "responses": [
+      "Diva has worked on several impactful projects, including churn prediction, image classification, Alzheimer's detection, Google stock price prediction, skin cancer prediction, sign language conversion, malicious website detection, and fraudulent credit card detection. These projects have significantly contributed to her expertise in machine learning and data science. You can check all her projects on Github- https://github.com/GuptaDiva",
+      "Diva's projects span a wide range of domains, showcasing her versatility and skills in machine learning and data science. She has successfully completed projects in churn prediction, image classification, Alzheimer's detection, Google stock price prediction, skin cancer prediction, sign language conversion, malicious website detection, and fraudulent credit card detection. You can check all her projects on Github- https://github.com/GuptaDiva",
+      "The projects completed by Diva demonstrate her proficiency in machine learning and data science. She has successfully developed models for churn prediction, image classification, Alzheimer's detection, Google stock price prediction, skin cancer prediction, sign language conversion, malicious website detection, and fraudulent credit card detection, showcasing her ability to tackle diverse problems in the field. You can check all her projects on Github- https://github.com/GuptaDiva"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "achievements",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in college",
+      "list of events conducted in college",
+      "What events are conducted in college",
+      "Are there any event held at college",
+      "Events?",
+      "functions",
+      "what are the events",
+      "tell me about events",
+      "what about events"
+   ],
+   "responses": [
+      "Diva has a remarkable track record of organizing diverse events and functions at college, showcasing her versatility and leadership skills. Her contributions have added significant value to the college community. You can check her achievements and events organized on her LinkedIn profile.",
+      "In her role as an event organizer, Diva has demonstrated exceptional organizational and interpersonal skills. She has successfully coordinated a variety of events, enriching the college experience for students and faculty alike. You can check her achievements and events organized on her LinkedIn profile.",
+      "The events and functions organized by Diva have been widely appreciated for their creativity and impact. Her ability to engage and inspire others has been evident in the success of these activities, making her a valuable asset to the college community. You can check her achievements and events organized on her LinkedIn profile.",
+      "Diva's dedication to organizing events and functions has been commendable. Her attention to detail and commitment to excellence have been instrumental in the success of these activities, creating memorable experiences for everyone involved. You can check her achievements and events organized on her LinkedIn profile.",
+      "As an event organizer, Diva has shown great initiative and creativity in planning and executing various events. Her passion for creating memorable experiences has left a lasting impression on the college community. You can check her achievements and events organized on her LinkedIn profile.",
+      "Diva has achieved notable success in various hackathons, including the prestigious Smart India Hackathon (SIH). Her problem-solving skills and innovative thinking have been instrumental in developing impactful solutions. You can check her achievements and projects on her LinkedIn profile.",
+      "At SIH, Diva's team received recognition for developing a groundbreaking solution that addressed a pressing societal issue. Her ability to collaborate effectively and think critically in high-pressure environments was key to the team's success. You can check her achievements and projects on her LinkedIn profile.",
+      "Diva has a proven track record of academic excellence and extracurricular achievements, demonstrating her commitment to personal and professional growth. Her passion for learning and dedication to her goals make her a valuable asset to any team. You can check her achievements and projects on her LinkedIn profile.",
+      "In addition to her academic achievements, Diva has actively contributed to various social and community service initiatives, showcasing her compassion and commitment to making a positive impact. You can check her achievements and projects on her LinkedIn profile.",
+      "Diva's achievements in both academic and extracurricular activities reflect her well-rounded skill set and dedication to excellence. Her ability to balance multiple responsibilities while excelling in diverse areas highlights her adaptability and strong work ethic. You can check her achievements and projects on her LinkedIn profile."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "volunteering",
+   "patterns": [
+      "events organized",
+      "Are there any events held at college",
+      "Events?",
+      "functions",
+      "what are the events",
+      "What are her leadership roles she has undertaken?",
+      "How good is she when it comes to conducting events?",
+      "What are her volunteering experiences?",
+      "How active is she in the community?",
+      "Tell me about her community involvement",
+      "How dedicated is she to volunteering?"
+   ],
+   "responses": [
+      "Diva has a remarkable track record of organizing diverse events and functions at college, showcasing her versatility and leadership skills. Her contributions have added significant value to the college community. You can check her achievements and events organized on her LinkedIn profile. She is a GDSC WOW Volunteer at GDSC WOW, a Volunteer at ALias (a technical club) since 11/2022, presently serving as the President since 01/2024, a member of Google Women Techmakers since 12/2021, and the AI/ML Lead at GDSC (Google Development Student Club) since 08/2023.",
+      "In her role as an event organizer, Diva has demonstrated exceptional organizational and interpersonal skills. She has successfully coordinated a variety of events, enriching the college experience for students and faculty alike. You can check her achievements and events organized on her LinkedIn profile. She is a GDSC WOW Volunteer at GDSC WOW, a Volunteer at ALias (a technical club) since 11/2022, presently serving as the President since 01/2024, a member of Google Women Techmakers since 12/2021, and the AI/ML Lead at GDSC (Google Development Student Club) since 08/2023.",
+      "The events and functions organized by Diva have been widely appreciated for their creativity and impact. Her ability to engage and inspire others has been evident in the success of these activities, making her a valuable asset to the college community. You can check her achievements and events organized on her LinkedIn profile. She is a GDSC WOW Volunteer at GDSC WOW, a Volunteer at ALias (a technical club) since 11/2022, presently serving as the President since 01/2024, a member of Google Women Techmakers since 12/2021, and the AI/ML Lead at GDSC (Google Development Student Club) since 08/2023.",
+      "Diva's dedication to organizing events and functions has been commendable. Her attention to detail and commitment to excellence have been instrumental in the success of these activities, creating memorable experiences for everyone involved. You can check her achievements and events organized on her LinkedIn profile. She is a GDSC WOW Volunteer at GDSC WOW, a Volunteer at ALias (a technical club) since 11/2022, presently serving as the President since 01/2024, a member of Google Women Techmakers since 12/2021, and the AI/ML Lead at GDSC (Google Development Student Club) since 08/2023.",
+      "As an event organizer, Diva has shown great initiative and creativity in planning and executing various events. Her passion for creating memorable experiences has left a lasting impression on the college community. You can check her achievements and events organized on her LinkedIn profile. She is a GDSC WOW Volunteer at GDSC WOW, a Volunteer at ALias (a technical club) since 11/2022, presently serving as the President since 01/2024, a member of Google Women Techmakers since 12/2021, and the AI/ML Lead at GDSC (Google Development Student Club) since 08/2023."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Project proud of",
+   "patterns": [
+      "discuss about the project you are most proud of",
+      "project you are most proud of",
+      "tell me about a project you are proud of",
+      "notably successful project",
+      "project with a community goal in mind",
+      "project for social impact",
+      "project aimed at helping the community",
+      "project that made a difference",
+      "describe a project you are proud of",
+      "talk about a project that has been successful",
+      "a project that stands out",
+      "a project you are passionate about",
+      "a project that showcases your skills",
+      "a project that reflects your values",
+      "a project that you consider your best"
+   ],
+   "responses": [
+      "Diva's most proud project is her real-time sign language conversion project. It is designed to translate sign language gestures into text or speech in real-time, enabling easier communication for the hearing-impaired community.",
+      "Diva's real-time sign language conversion project is notably successful, utilizing advanced machine learning algorithms and computer vision techniques to accurately interpret sign language gestures.",
+      "One of Diva's notably successful projects is her real-time sign language conversion project, which showcases her commitment to using technology for social good.",
+      "Diva's real-time sign language conversion project is a project with a community goal in mind, aiming to bridge the communication gap between the hearing-impaired and the rest of the world.",
+      "Diva's real-time sign language conversion project is a project for social impact, leveraging machine learning and computer vision to translate sign language gestures into text or speech, empowering the hearing-impaired community."
+   ],
+   "context_set": ""
+}
+,
+{
+   "tag": "certifications",
+   "patterns": [
+      "certifications",
+      "what certifications do you have",
+      "certification details",
+      "certification courses",
+      "certification programs",
+      "certificates",
+      "certificate courses",
+      "what certifications have you completed",
+      "list of certifications",
+      "certification in Machine Learning",
+      "Machine Learning certification",
+      "Python certification",
+      "Scratch certification",
+      "Cisco Networking certification",
+      "enlist your certifications",
+      "what certifications do you hold",
+      "your certifications",
+      "show me your certifications"
+   ],
+   "responses": [
+      "Diva has completed a Machine Learning Specialization offered by Stanford University on Coursera. She has also completed Python courses offered by the University of Michigan on Coursera, Scratch Development, and Cisco Networking certifications.",
+      "In addition to a Machine Learning Specialization by Stanford University on Coursera, Diva holds certifications in Python from the University of Michigan on Coursera, Scratch Development, and Cisco Networking.",
+      "Diva's certifications include a Machine Learning Specialization from Stanford University on Coursera, Python courses from the University of Michigan on Coursera, Scratch Development, and Cisco Networking.",
+      "Her certifications include a Machine Learning Specialization from Stanford University on Coursera, Python courses from the University of Michigan on Coursera, Scratch Development, and Cisco Networking."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "schooling",
+   "patterns": [
+      "Where did you complete your schooling from?",
+      "Tell me about your schooling.",
+      "What were your grades like in school?",
+      "What were your grades in ICSE and ISC?",
+      "Schooling details?",
+      "Schooling grades?",
+      "Which school did you attend?",
+      "Schooling information?",
+      "Schooling background?",
+      "ICSE and ISC grades?",
+      "ICSE and ISC marks?",
+      "ICSE and ISC percentage?",
+      "ICSE and ISC percentage in school?",
+      "ICSE and ISC scores?"
+   ],
+   "responses": [
+      "I completed my schooling from City Montessori School. I scored 94.2% in ICSE and 95.2% in ISC.",
+      "My schooling was completed at City Montessori School. I achieved 94.2% in ICSE and 95.2% in ISC.",
+      "City Montessori School is where I completed my schooling, scoring 94.2% in ICSE and 95.2% in ISC.",
+      "I attended City Montessori School for my schooling. My grades were 94.2% in ICSE and 95.2% in ISC.",
+      "In ICSE, I scored 94.2% and in ISC, I scored 95.2%, completing my schooling from City Montessori School."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "skills",
+   "patterns": [
+      "What are your skills?",
+      "Tell me about your skills.",
+      "Skills?",
+      "What skills do you have?",
+      "Can you list your skills?",
+      "Skills and expertise?",
+      "What technical skills do you possess?",
+      "What programming languages are you proficient in?",
+      "Tell me about your technical skills.",
+      "What are your key skills?",
+      "Which skills are you best at?",
+      "Technical expertise?"
+   ],
+   "responses": [
+      "I have a wide range of skills including machine learning, unsupervised learning, supervised learning, reinforcement learning, neural networks, deep learning, ANNs, CNNs, RNNs, LSTMs, SOMs, GANs, PyTorch, TensorFlow, Keras, scikit-learn, JavaScript, HTML, CSS, Python, Java, C, C++, Linux, Unix, React, React Native, SQL, and MATLAB."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "tech_stack",
+   "patterns": [
+      "What technologies are you proficient in?",
+      "Tell me about your technical skills.",
+      "What is your tech stack?",
+      "Which programming languages do you know?",
+      "What frameworks and libraries are you familiar with?",
+      "Discuss your expertise in tech.",
+      "What languages and technologies are part of your skill set?",
+      "Can you list your technical skills?",
+      "What tools and technologies do you use?",
+      "Describe your technology background."
+   ],
+   "responses": [
+      "I have a diverse tech stack, including frontend technologies like React, React Native, JavaScript, HTML, and CSS.",
+      "On the backend, I'm proficient in Python and Java.",
+      "My expertise extends to machine learning, where I have experience with supervised learning, unsupervised learning, reinforcement learning, neural networks (ANNs, CNNs, RNNs, LSTMs), self-organizing maps (SOMs), and generative adversarial networks (GANs).",
+      "I'm also familiar with machine learning frameworks such as PyTorch, TensorFlow, and Keras, as well as libraries like scikit-learn.",
+      "Additionally, I have experience with other languages and technologies such as C, C++, Linux, Unix, SQL, MATLAB, and Scratch.",
+      "In terms of databases, I have worked with MySQL and MongoDB.",
+      "I am skilled in web development, with expertise in building responsive and user-friendly interfaces.",
+      "My skill set also includes knowledge of version control systems like Git and software development methodologies such as Agile and Scrum.",
+      "I continuously update my skills and stay informed about the latest trends and technologies in the field of software development and machine learning."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Machine Learning",
+   "patterns": [
+      "Tell me about your machine learning skills.",
+      "What is your expertise in machine learning?",
+      "Discuss your machine learning projects.",
+      "Can you list your machine learning experience?",
+      "How good are you in machine learning?",
+      "What machine learning algorithms are you familiar with?",
+      "Tell me about your deep learning knowledge.",
+      "Which deep learning frameworks have you used?",
+      "Explain your experience with neural networks.",
+      "What is your proficiency in TensorFlow and PyTorch?",
+      "Describe your projects in machine learning.",
+      "How do you apply machine learning in real-world scenarios?",
+      "Share your achievements in machine learning."
+   ],
+   "responses": [
+      "I have a strong background in machine learning, with expertise in various algorithms such as linear regression, logistic regression, decision trees, random forests, k-nearest neighbors, and support vector machines. Additionally, I have served as the GDSC AI/ML lead, where I mentored many junior members in their machine learning projects.",
+      "My machine learning experience includes working with deep learning frameworks such as TensorFlow and PyTorch. I have applied machine learning in projects such as churn prediction, image classification, Alzheimer's detection, and Google stock price prediction. As the GDSC AI/ML lead, I mentored junior members in their machine learning projects.",
+      "In machine learning, I have worked extensively with neural networks, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), long short-term memory (LSTM) networks, and generative adversarial networks (GANs). My projects in machine learning have focused on real-world applications such as malicious website detection and fraudulent credit card detection. As the GDSC AI/ML lead, I have mentored numerous junior members, guiding them in their machine learning journeys."
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "Front-end Development",
+   "patterns": [
+      "Tell me about your front-end development skills.",
+      "What technologies do you use for front-end development?",
+      "Discuss your expertise in front-end development.",
+      "Can you list your front-end development projects?",
+      "How good are you in front-end development?",
+      "What front-end frameworks are you familiar with?",
+      "Tell me about your experience with React and React Native.",
+      "Which front-end libraries have you used?",
+      "Explain your experience with JavaScript, HTML, and CSS.",
+      "What is your proficiency in front-end web development?",
+      "Describe your projects in front-end development.",
+      "How do you approach designing user interfaces?",
+      "Share your achievements in front-end development."
+   ],
+   "responses": [
+      "I have a strong background in front-end development, with expertise in technologies such as React, React Native, JavaScript, HTML, and CSS. My projects in front-end development include building responsive and user-friendly interfaces for web and mobile applications.",
+      "My front-end development experience includes working with frameworks like React and React Native to create interactive and engaging user interfaces. I have also used front-end libraries such as Bootstrap and Material-UI to enhance the design and functionality of my projects.",
+      "In front-end development, I focus on creating intuitive user interfaces that enhance the overall user experience. My projects range from single-page applications to complex web applications, showcasing my skills in designing and developing front-end solutions.",
+      "I have experience in building front-end applications that meet modern design standards and user expectations. My proficiency in front-end technologies allows me to create visually appealing and functional interfaces for various projects."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "data analytics",
+   "patterns": [
+      "Tell me about your skills in data analytics.",
+      "What technologies do you use for data analytics?",
+      "Discuss your expertise in data analytics.",
+      "Can you list your data analytics projects?",
+      "How good are you in data analytics?",
+      "What data analytics tools are you familiar with?",
+      "Tell me about your experience with data analysis and visualization.",
+      "Which programming languages have you used for data analytics?",
+      "Explain your experience with data cleaning and preprocessing.",
+      "What is your proficiency in data analytics?",
+      "Describe your projects in data analytics.",
+      "How do you approach analyzing and interpreting data?",
+      "Share your achievements in data analytics."
+   ],
+   "responses": [
+      "I have a strong background in data analytics, with expertise in technologies such as Python, R, SQL, and various data analytics tools. My projects in data analytics include analyzing and visualizing data to derive insights and make data-driven decisions.",
+      "My data analytics experience includes working with tools like pandas, NumPy, Matplotlib, and Tableau to perform data analysis and visualization. I have also used machine learning algorithms for predictive analytics and clustering.",
+      "In data analytics, I focus on extracting meaningful insights from complex datasets. My projects range from exploratory data analysis to predictive modeling, showcasing my skills in data cleaning, preprocessing, and analysis.",
+      "I have experience in analyzing large datasets to identify trends and patterns, as well as presenting findings to stakeholders. My proficiency in data analytics allows me to develop data-driven strategies and solutions for business challenges."
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "data science",
+   "patterns": [
+      "Tell me about your skills in data science.",
+      "What technologies do you use for data science?",
+      "Discuss your expertise in data science.",
+      "Can you list your data science projects?",
+      "How good are you in data science?",
+      "What data science tools are you familiar with?",
+      "Tell me about your experience with data manipulation and analysis.",
+      "Which programming languages have you used for data science?",
+      "Explain your experience with machine learning and deep learning.",
+      "What is your proficiency in data science?",
+      "Describe your projects in data science.",
+      "How do you approach solving data science problems?",
+      "Share your achievements in data science."
+   ],
+   "responses": [
+      "I have a strong background in data science, with expertise in technologies such as Python, R, SQL, and various data science libraries. My projects in data science include data manipulation, analysis, and modeling to solve complex problems.",
+      "My data science experience includes working with tools like pandas, NumPy, scikit-learn, TensorFlow, and Keras for machine learning and deep learning tasks. I have applied these techniques to real-world datasets to derive insights and build predictive models.",
+      "In data science, I focus on leveraging data to drive decision-making and solve business challenges. My projects demonstrate my ability to work with large datasets, perform data cleaning and preprocessing, and build and evaluate machine learning models.",
+      "I have experience in applying statistical analysis and machine learning algorithms to extract meaningful insights from data. My proficiency in data science allows me to develop data-driven solutions that deliver actionable results."
+   ],
+   "context_set": ""
+}
+   ]
+}
