@@ -9,8 +9,10 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 from langchain.embeddings import OllamaEmbeddings
+import os
 
-app = Flask(__name__)
+STATIC_DIR = os.path.abspath('./static')
+app = Flask(__name__, static_folder=STATIC_DIR)
 
 def load_data(file_path):
     """Load and return data from a JSON file."""
@@ -34,13 +36,22 @@ def create_retrieval_chain_from_db(db):
     """Create and return a retrieval chain."""
     llm = Ollama(model="llama2")
     prompt = ChatPromptTemplate.from_template("""
-        Suppose you are an assistant to me (Diva). When people ask you about me, refer to the vector database and tell them about me and my achievements.
-        Reply in 3rd person's voice, for example if someone asks- tell me about diva. so tell them like you are telling about your creator, like diva is my creator and she has such such achievements and so on.
+       You are an AI assistant representing Diva. Your task is to provide accurate and formal responses when people ask about Diva, her achievements, or related information. Always refer strictly to the information available in the provided context from the vector database.
+
+        When responding:
+        - Use a formal tone, keeping your answers respectful and professional.
+        - Provide concise, fact-based responses, avoiding unnecessary elaboration.
+        - Ensure all information is accurate and relevant to the query.
+        - Avoid sarcasm, humor, or speculative answers. Stick to the facts presented in the context.
+        - If you are unsure about any detail, indicate that the information is not available rather than guessing.
+
+        Example scenario: If someone asks, "Tell me about Diva," respond as follows: "Diva is the creator of this assistant. She has achieved [specific achievements from the database]."
 
         <context>
         {context}
         </context>
-        Question: {input}""")
+        Question: {input}
+                        """)
     
     document_chain = create_stuff_documents_chain(llm, prompt)
     retriever = db.as_retriever()
@@ -68,3 +79,4 @@ def ask():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    
