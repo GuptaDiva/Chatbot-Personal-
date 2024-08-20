@@ -1,0 +1,9 @@
+streamlit
+pathlib
+langchain
+langchain_community
+streamlit_chat
+langchain_core
+langchain_groq
+faiss-cpu
+ollama
