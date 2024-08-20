@@ -6,4 +6,4 @@ streamlit_chat
 langchain_core
 langchain_groq
 faiss-cpu
-ollama
+langchain_huggingface

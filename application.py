@@ -2,15 +2,14 @@ import streamlit as st
 import warnings
 import json
 from pathlib import Path
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.docstore.document import Document
 from langchain.tools.retriever import create_retriever_tool
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
-from langchain_community.llms import Ollama
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
-from langchain_community.embeddings import OllamaEmbeddings
 import os
 from streamlit_chat import message
 
@@ -31,12 +30,15 @@ def create_documents(data):
     return documents
 
 def initialize_vector_db():
+    embeddings_model_name = "sentence-transformers/all-MiniLM-L6-v2"
+    embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name) 
+
     if os.path.exists("Database"):
-        vectordb__=FAISS.load_local("Database",OllamaEmbeddings(), allow_dangerous_deserialization=True)
+        vectordb__=FAISS.load_local("Database", embeddings, allow_dangerous_deserialization=True)
         retriever__=vectordb__.as_retriever()
         return retriever__
     else:
-        vectordb__=FAISS.from_documents(documents,OllamaEmbeddings())
+        vectordb__=FAISS.from_documents(documents, embeddings)
         vectordb__.save_local("Database")
         retriever__=vectordb__.as_retriever()
         return retriever__
@@ -85,7 +87,7 @@ if 'chat_history' not in st.session_state:
     st.session_state['chat_history'] = []
 
 # User input and response display
-user_input = st.text_input("Ask me anything about Diva.", "")
+user_input = st.text_input("Ask me anything about Diva!", "")
 
 if user_input:
     # Add user input to chat history
