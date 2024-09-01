@@ -46,9 +46,9 @@ def initialize_vector_db():
 def create_retrieval_chain_from_db(db):
     # Set up the prompt
     prompt = ChatPromptTemplate.from_template("""
-        Suppose you are an assistant to me (Diva). When people ask you about me, refer to the vector database and tell them about me and my achievements.
+        Suppose you are an assistant to me (Diva). When people ask you about me, refer to the vector database(While searching from the database, try to fetch all the possible responses and club them and remove repetition) and tell them about me and my achievements.
         Reply in 3rd person's voice, for example if someone asks- tell me about diva. so tell them like you are telling about your creator, like diva is my creator and she has such such achievements and so on.
-
+        
         <context>
         {context}
         </context>
