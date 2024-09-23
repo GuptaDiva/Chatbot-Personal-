@@ -124,7 +124,7 @@ This project is licensed under the **GPLv2** - see the [LICENSE](LICENSE) file f
 
 ## 🧑‍💻 Author
 
-- **Diva Gupta** – [LinkedIn](https://linkedin.com/in/divagupta)
+- **Diva Gupta** – [LinkedIn](https://www.linkedin.com/in/diva-gupta-a6107421b/)
                  – [Github](https://github.com/GuptaDiva)
 
 If you have any questions, feel free to reach out!
