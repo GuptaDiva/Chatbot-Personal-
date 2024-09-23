@@ -129,7 +129,7 @@ This project is licensed under the **GPLv2** - see the [LICENSE](LICENSE) file f
 
 If you have any questions, feel free to reach out!
 
-### 📷 Screenshots
+## 📷 Screenshots
 
 Some screenshots from the app-
 - **Flask App**-
