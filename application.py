@@ -11,6 +11,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 import os
+import random
+import string
 from streamlit_chat import message
 
 # Suppress warnings
@@ -109,9 +111,9 @@ count = 0
 # Display chat messages
 for chat in st.session_state['chat_history']:
     if chat["role"] == "user":
-        message(chat["content"], is_user=True, key=count)
+        message(chat["content"], is_user=True, key=''.join(random.choices(string.ascii_letters,k=7)))
     else:
-        message(chat["content"], is_user=False, key=count)
+        message(chat["content"], is_user=False, key=''.join(random.choices(string.ascii_letters,k=7)))
     count += 1
 
 # Adding a send button for a better UI experience
