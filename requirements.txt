@@ -1,9 +1,10 @@
 streamlit
-pathlib
 langchain
+langchain_classic
 langchain_community
 streamlit_chat
 langchain_core
 langchain_groq
 faiss-cpu
 langchain_huggingface
+sentence-transformers
