@@ -60,7 +60,7 @@ def create_retrieval_chain_from_db(db):
 
 
     # Initialize the LLaMA model
-    model = ChatGroq(model="llama-3.1-8b-instant")
+    model = ChatGroq(model="openai/gpt-oss-20b")
 
     # Create the document chain
     document_chain = create_stuff_documents_chain(model, prompt)
