@@ -3,13 +3,12 @@ import warnings
 import json
 from pathlib import Path
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.docstore.document import Document
-from langchain.tools.retriever import create_retriever_tool
+from langchain_core.documents import Document
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
-from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain.chains import create_retrieval_chain
+from langchain_classic.chains.combine_documents import create_stuff_documents_chain
+from langchain_classic.chains import create_retrieval_chain
 import os
 import random
 import string
@@ -61,7 +60,7 @@ def create_retrieval_chain_from_db(db):
 
 
     # Initialize the LLaMA model
-    model = ChatGroq(model="llama3-8b-8192")
+    model = ChatGroq(model="llama-3.1-8b-instant")
 
     # Create the document chain
     document_chain = create_stuff_documents_chain(model, prompt)
